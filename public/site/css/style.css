@@ -190,16 +190,21 @@ width: 450px;
 #slider .carousel-inner .content h1{
     font-size: 50px;
     font-weight: 600;
+    margin-bottom: 0px;
     color: green;
+}
+#slider .carousel-inner .content{
+    margin-right: 50px;
 }
 #slider .carousel-inner .content p{
     font-size: 16px;
+    margin-top: 18px;
 }
 #slider .carousel-inner .content .button .btn{
     font-size: 18px;
     padding: 5px 18px;
     border-radius: 20px;
-    margin: 0 10%;
+    margin: 30px 10% 0 10%;
 }
 #slider .carousel-inner .content .button .btn:hover{
     background-color: var(--main-color);
@@ -212,6 +217,7 @@ width: 450px;
     color: green;
     opacity: 0.05;
     position: absolute;
+    margin-right: -35px;
     line-height: 140px;
 }
 @media only screen and (max-width:992px) {
