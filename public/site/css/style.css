@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+:root {
+    --main-color: rgb(0, 109, 0);
+    --link-color: #ff9500;
+    --title-color: #ff9500;
+    --body-bg: #efefef;
+    --text: #5a544b;
+    --white: #fff;
+    --black: #000;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--body-bg);
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+/* button css */
+.btn {
+    background-color: var(--link-color);
+    color: var(--white);
+    border-radius: 5px;
+    border: 2px solid var(--link-color);
+    padding: 7px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+.btn:hover {
+    background-color: var(--title-color);
+    border: 2px solid var(--title-color);
+    color: var(--white);
+}
+/* button css */
+
+@media only screen and (max-width: 800px) {
+    .sm-hide {
+        display: none;
+    }
+}
+
+/* top-header section css starts here */
+#top-header {
+    background-color: var(--main-color);
+    height: 45px;
+    color: var(--white);
+    /* display: flex;
+    align-items: center; */
+    line-height: 45px;
+}
+
+#top-header .top-header-contact {
+    font-weight: 600;
+}
+
+#top-header .top-header-contact .icon {
+    padding-right: 5px;
+}
+
+#top-header .top-header-social-icon a {
+    border: 2px solid var(--link-color);
+    color: var(--link-color);
+    margin: 0 10px;
+    padding: 5px;
+    line-height: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    transition: 1s;
+}
+
+#top-header .top-header-social-icon a:hover {
+    background-color: var(--link-color);
+    color: var(--white);
+}
+
+@media only screen and (max-width: 767px) {
+    .header-text-sm-hide {
+        display: none;
+    }
+
+    #top-header .top-header-contact {
+        text-align: center;
+    }
+}
+
+/* top-header section css ends here */
+
+/* navbar section css starts here */
+
+#top-header-navbar .navbar {
+    padding: 0;
+}
+
+#top-header-navbar .navbar .navbar-brand {
+    padding: 0;
+}
+
+#top-header-navbar .navbar .navbar-brand  img {
+    /* height: 100%; */
+    width: 200px;
+}
+
+#top-header-navbar .navbar .navbar-nav .dropdown .dropdown-menu {
+    /* background-color: red; */
+    padding: 0;
+    background-color: var(--title-color);
+    border: none;
+    border-radius: 0;
+}
+
+#top-header-navbar .navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+    border-bottom: 2px solid var(--white);
+    padding: 10px;
+    text-align: center;
+    color: var(--white);
+    font-weight: bold;
+    margin: 0;
+}
+
+#top-header-navbar
+    .navbar
+    .navbar-nav
+    .dropdown
+    .dropdown-menu
+    .dropdown-item:hover {
+    background-color: var(--title-color);
+    color: white;
+}
+
+#top-header-navbar .navbar .navbar-nav .nav-item .nav-link {
+    color: var(--main-color);
+    font-weight: bold;
+    padding: 30px;
+    transition: 1s;
+}
+#top-header-navbar .navbar .navbar-nav .nav-item .nav-link:hover {
+    background-color: var(--main-color);
+    color: var(--white);
+    border-bottom: 5px solid var(--title-color);
+}
+#top-header-navbar .navbar .navbar-nav .nav-item.active .nav-link{
+    background-color: var(--main-color);
+    color: var(--white);
+    border-bottom: 5px solid var(--title-color);
+}
+
+/* navbar section css ends here */
+
+/* slider section starts here */
+#slider{
+    background-color: rgb(160, 224, 251);
+    /* height: 75vh; */
+    
+}
+#slider .carousel-inner .carousel-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+#slider .carousel-inner img {
+height: 450px;
+width: 450px;
+}
+#slider .carousel-inner .content{
+    margin-right: 80px;
+}
+#slider .carousel-inner .content h2{
+    font-size: 29px;
+    font-weight: 500;
+}
+#slider .carousel-inner .content h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: green;
+}
+#slider .carousel-inner .content p{
+    font-size: 16px;
+}
+#slider .carousel-inner .content .button .btn{
+    font-size: 18px;
+    padding: 5px 18px;
+    border-radius: 20px;
+}
+#slider .carousel-inner .content .button .btn:hover{
+    background-color: var(--main-color);
+    color: white;
+    transition: 1s;
+    border: none;
+}
+@media only screen and (max-width:991px) {
+    #slider .carousel-inner img{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media only screen and (max-width:768px) {
+    #slider .carousel-inner .carousel-item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+      margin-top: 50px;
+      margin-right: 0px;
+
+          }
+          #slider .carousel-inner .content{
+            margin-right: 0px;
+        }
+}
+/* slider section ends here */
+/* service section starts here */
+#section-service-container .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* height: 100vh; */
+    flex-wrap: wrap;
+    width:100%;
+}
+#section-service-container {
+    background-color: var(--body-bg);
+}
+/* .box {
+    
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+} */
+#section-service-container .haed-text h1{
+    text-align: center;
+    color:var(--text);
+    margin-top: 10px;
+    
+}
+
+.box .container {
+    margin-top:  0px;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin: 71px 71px;
+
+}
+.box .container:hover{
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 5px black;
+}
+.box .container .icon-only{
+    height: 65px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 50px;
+    background-color: #fff;
+}
+.box .container .icon {
+    position: absolute;
+    /* background-color: var(--i); */
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #fff;
+}
+.box .container:hover .icon{
+    top: 10%;
+    left: 38%;
+    height: 65px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 50px;
+
+}
+
+.box .container .icon i {
+    color: #fff;
+    font-size: 45px;
+}
+
+.content h2 {
+    margin: 100px 0px 0px 0px;
+    color:var(--text);
+}
+
+.content p {
+    margin: 5px 20px 20px 20px;
+    color:var(--text);
+}
+/* service section ends here */
+/* topsale css start here */
+.top-sale{
+    background-color: rgb(121, 214, 254);
+}
+.top-sale .top-sale-all-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 80%; */
+    margin: 0 10%;
+}
+.top-sale .product{
+    background-color: whitesmoke;
+    position: relative;
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid black; */
+    align-items: center;
+    border-radius: 10px;
+    margin: 40px 15px;
+    box-shadow: 0 0 20px rgb(49, 129, 161);
+}
+.top-sale .product:hover{
+    margin-top: 15px;
+    transition: 0.5s;
+}
+
+.top-sale .product .image img{
+    width: 300px;
+    height: 206px;
+    border-radius: 10px 10px 0 0;
+}
+.top-sale .product .image .product-title{
+    background-color:  rgb(0, 109, 0);
+    position: absolute;
+    width: 50%;
+    margin: 0 26%;
+    text-align: center;
+    padding: 2px;
+    opacity: 0.9;
+    border-radius: 5px;
+    top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: bold;
+}
+.top-sale .product .image .product-title:hover{
+    opacity: 1;
+    transition: 1s;
+}
+.top-sale .product .content{
+    text-align: start;
+}
+.top-sale .product .content h2{
+    text-align: end;
+    width: 100%;
+    color: Green;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.top-sale .product .content h1{
+    font-size: 20px;
+    font-weight: 500;
+    /* text-align: start; */
+}
+.top-sale .product .content h3{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.top-sale .product .content h1 span{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px;
+}
+.top-sale .product .content .button{
+    text-align: center;
+}
+.top-sale .product .content .button button{
+    background-color: var(--link-color);
+    padding: 3px 20px;
+    border-radius: 20px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    /* border: none; */
+}
+.top-sale .product .content .button button:hover{
+    background-color: green;
+    color: white;
+    transition: 1s;
+}
+
+.top-sale .product .content .product-top{
+    margin-top: 15px;
+    /* text-align: start; */
+    display: flex;
+    font-size: 20px;
+}
+.top-sale .product .content .product-top .rate{
+    margin-left: 18%;
+    color: var(--black);
+}
+.top-sale .product .content .product-top span .star{
+    color: var(--link-color);
+    margin: 5px;
+}
+/* topsale css ends here  */
