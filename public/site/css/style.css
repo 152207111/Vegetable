@@ -168,7 +168,7 @@ a {
 /* slider section starts here */
 #slider{
     background-color: rgb(160, 224, 251);
-    /* height: 75vh; */
+    height: 80vh;
     
 }
 #slider .carousel-inner .carousel-item{
@@ -176,14 +176,13 @@ a {
     align-items: center;
     justify-content: center;
     height: 75vh;
+    position: relative;
 }
 #slider .carousel-inner img {
-height: 450px;
+height: 400px;
 width: 450px;
 }
-#slider .carousel-inner .content{
-    margin-right: 80px;
-}
+
 #slider .carousel-inner .content h2{
     font-size: 29px;
     font-weight: 500;
@@ -200,6 +199,7 @@ width: 450px;
     font-size: 18px;
     padding: 5px 18px;
     border-radius: 20px;
+    margin: 0 10%;
 }
 #slider .carousel-inner .content .button .btn:hover{
     background-color: var(--main-color);
@@ -207,26 +207,44 @@ width: 450px;
     transition: 1s;
     border: none;
 }
-@media only screen and (max-width:991px) {
+#slider .carousel-inner .carousel-item .organic{
+    font-size: 100px;
+    color: green;
+    opacity: 0.05;
+    position: absolute;
+    line-height: 140px;
+}
+@media only screen and (max-width:992px) {
     #slider .carousel-inner img{
-        height: 400px;
-        width: 400px;
+        height: 350px;
+        width: 350px;
     }
+    #slider .carousel-inner .image{
+        width: 48%;
+    }
+    
 }
 @media only screen and (max-width:768px) {
-    #slider .carousel-inner .carousel-item{
-      display: flex;
+    #slider .carousel-inner .carousel-item {
+      display: flex; 
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      height: auto;
-      margin-top: 50px;
-      margin-right: 0px;
+            /* height: auto; */
+      /* margin: 50px 0; */
+      /* margin-right: 0px; */
 
-          }
-          #slider .carousel-inner .content{
-            margin-right: 0px;
-        }
+    }
+
+    #slider .carousel-inner img{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 50px;
+        display: none;
+    }
+    #slider .carousel-inner .content{
+    margin-right: 0px;
+   }
 }
 /* slider section ends here */
 /* service section starts here */
@@ -248,10 +266,11 @@ width: 450px;
     flex-wrap: wrap;
     text-align: center;
 } */
-#section-service-container .haed-text h1{
+#section-service-container .haed-text h2{
     text-align: center;
     color:var(--text);
     margin-top: 10px;
+    font-weight: bold;
     
 }
 
@@ -305,7 +324,7 @@ width: 450px;
     font-size: 45px;
 }
 
-.content h2 {
+.section-service-container .container .content h2 {
     margin: 100px 0px 0px 0px;
     color:var(--text);
 }
@@ -318,6 +337,11 @@ width: 450px;
 /* topsale css start here */
 .top-sale{
     background-color: rgb(121, 214, 254);
+}
+.top-sale .top-sale-title h2{ 
+    color: var(--text);
+    font-weight: bold;
+    text-align: center;
 }
 .top-sale .top-sale-all-product{
     display: flex;

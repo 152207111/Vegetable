@@ -111,7 +111,7 @@
           We support our farmers
         </h2>
         <h1>Fresh Veggies</h1>
-        <p>with fresh fruit and vegetables straight from their market gardens <br> to our shelves, delivering fresh to you everyday.</p>
+        <p>Good nutrition is the foundation for a vibrant life.</p>
         <div class="button">
           <a href="" class="btn">
             Shop now
@@ -121,6 +121,11 @@
       <div class="image">
       <img src="{{ asset('site/image/slider1.png')}}"  alt="...">
       </div>
+      <div class="organic">
+        Fresh <br>
+        & <br>
+        ORGANIC
+      </div>
     </div>
   </div>
 </div>
@@ -129,7 +134,7 @@
     <!-- slider section ends here -->
     <!-- service section starts here -->
 <div id="section-service-container">
-   <div class="haed-text"><h1>Services</h1></div>
+   <div class="haed-text"><h2>Services</h2></div>
       <div class="box">  
           <div class="container">
               <div class="icon" style="background-color: #4eb7ff;">
@@ -167,6 +172,9 @@
 <!-- top-sale product starts here -->
      <section>
         <div class="top-sale">
+          <div class="top-sale-title">
+             <h2>Our Top-Sale</h2>
+          </div>
           <div class="top-sale-all-product">
               <div class="product">
               <div class="image">
