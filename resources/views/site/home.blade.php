@@ -294,6 +294,39 @@
         </div>
    </section>
    <!-- top-sale product ends here -->
+   <!-- category starts here  -->
+   <section>
+    <div class="category-title">
+      <h2>Category</h2>
+    </div>
+     <div class="category">
+        <div class="category-item">
+          <div class="image">
+              <img src="{{ asset('site/image/vegetable.jpg')}}" alt="">
+          </div>
+          <div class="image-title">
+            <h2><a href="">Vegetable</a></h2>
+          </div>
+        </div>
+        <div class="category-item">
+            <div class="image">
+                <img src="{{ asset('site/image/fruit.jpg')}}" alt=""> 
+            </div>
+            <div class="image-title">
+              <h2><a href="">Fruit</a></h2>
+            </div>
+        </div>
+        <div class="category-item">
+            <div class="image">
+                <img src="{{ asset('site/image/other.jpg')}}" alt="">
+            </div>
+            <div class="image-title">
+              <h2><a href="">Other items</a></h2>
+            </div>
+        </div>
+     </div>
+   </section>
+   <!-- category ends here  -->
     {{-- jquery link gareko --}}
     <script src="{{ asset('site/jquery/jquery.js') }}"></script>
 
