@@ -85,7 +85,7 @@
           Category
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Fruits</a></li>
+          <li><a class="dropdown-item" href="/category">Fruits</a></li>
           <li><a class="dropdown-item" href="#">Vegetables</a></li>
           <li><a class="dropdown-item" href="#">Fresh & Organic</a></li>
         </ul>
@@ -314,6 +314,14 @@
             </div>
             <div class="image-title">
               <h2><a href="">Fruit</a></h2>
+            </div>
+        </div>
+        <div class="category-item">
+            <div class="image">
+                <img src="{{ asset('site/image/spices.jpg')}}" alt=""> 
+            </div>
+            <div class="image-title">
+              <h2><a href="">Spices</a></h2>
             </div>
         </div>
         <div class="category-item">
