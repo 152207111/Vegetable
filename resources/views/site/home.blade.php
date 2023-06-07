@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AKIRTAM | ELECTRONIC | ECOM</title>
+    <title>Vegetable website</title>
 
-    {{-- fontawesome ko css link gareko --}}
+    <!-- {{-- fontawesome ko css link gareko --}} -->
     <link rel="stylesheet" href="{{ asset('site/fontawesome/all.css') }}">
 
-    {{-- bootstrap ko css link gareko --}}
+    <!-- {{-- bootstrap ko css link gareko --}} -->
     <link rel="stylesheet" href="{{ asset('site/bootstrap/bootstrap.css') }}">
 
-    {{-- style.css link gareko --}}
+    <!-- {{-- style.css link gareko --}} -->
     <link rel="stylesheet" href="{{ asset('site/css/style.css') }}">
 
 </head>
@@ -52,9 +52,9 @@
             </div>
         </div>
     </section>
-    {{-- top-header section ends here --}}
+    <!-- {{-- top-header section ends here --}} -->
 
-    {{-- navbar section starts here --}}
+    <!-- {{-- navbar section starts here --}} -->
     <section id="top-header-navbar">
        
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -75,7 +75,7 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="/about">About Us</a>
       </li>
         <li class="nav-item">
         <a class="nav-link" href="#">Services</a>
@@ -98,7 +98,7 @@
 </div>
 </nav>
 </section>
-    {{-- navbar section ends here --}}
+    <!-- {{-- navbar section ends here --}} -->
 
     <!-- slider section starts here -->
 <section id="slider">
@@ -335,20 +335,20 @@
      </div>
    </section>
    <!-- category ends here  -->
-    {{-- jquery link gareko --}}
+    <!-- {{-- jquery link gareko --}} -->
     <script src="{{ asset('site/jquery/jquery.js') }}"></script>
 
-    {{-- proper js ko javascript link gareko --}}
+    <!-- {{-- proper js ko javascript link gareko --}} -->
     <script src="{{ asset('site/bootstrap/proper.js') }}"></script>
 
-    {{-- bootstrap ko javascript lai link gareko --}}
+    <!-- {{-- bootstrap ko javascript lai link gareko --}} -->
     <script src="{{ asset('site/bootstrap/bootstrap.js') }}"></script>
 
 
-    {{-- fontawesome ko js link gareko --}}
+    <!-- {{-- fontawesome ko js link gareko --}} -->
     <script src="{{ asset('site/fontawesome/all.js') }}"></script>
 
-    {{-- script.js link gareko --}}
+    <!-- {{-- script.js link gareko --}} -->
     <script src="{{ asset('site/js/script.js') }}"></script>
 </body>
 
