@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    {{-- fontawesome ko css link gareko --}}
+    <!-- {{-- fontawesome ko css link gareko --}} -->
     <link rel="stylesheet" href="{{ asset('site/fontawesome/all.css') }}">
 
-    {{-- bootstrap ko css link gareko --}}
+    <!-- {{-- bootstrap ko css link gareko --}} -->
     <link rel="stylesheet" href="{{ asset('site/bootstrap/bootstrap.css') }}">
 
-    {{-- style.css link gareko --}}
-    <link rel="stylesheet" href="{{ asset('site/css/about.css') }}">
+    <!-- {{-- style.css link gareko --}} -->
+    <link rel="stylesheet" href="{{ asset('site/css/category.css') }}">
 </head>
 <body>
-{{-- top-header section starts here --}}
+<!-- {{-- top-header section starts here --}} -->
     <section id="top-header">
         <div class="container">
             <div class="row">
@@ -75,15 +75,10 @@
         <li class="nav-item">
         <a class="nav-link" href="#">Services</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <li class="nav-item">
+        <a class="nav-link" href="#" >
           Category
         </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="/category">Fruits</a></li>
-          <li><a class="dropdown-item" href="#">Vegetables</a></li>
-          <li><a class="dropdown-item" href="#">Fresh & Organic</a></li>
-        </ul>
       </li>
           <li class="nav-item">
         <a class="nav-link" href="#">Contact Us</a>
@@ -108,6 +103,7 @@
   <div class="category-title">
     <h2>Category</h2>
   </div>
+
   <div class="category">
     <div class="category-item">
       <div class="image">
@@ -125,6 +121,7 @@
         <h2><a href="">Fruit</a></h2>
       </div>
     </div>
+
     <div class="category-item">
       <div class="image">
         <img src="{{ asset('site/image/spices.jpg')}}" alt="">
@@ -133,6 +130,7 @@
         <h2><a href="">Spices</a></h2>
       </div>
     </div>
+
     <div class="category-item">
       <div class="image">
         <img src="{{ asset('site/image/other.jpg')}}" alt="">
@@ -143,6 +141,7 @@
     </div>
   </div>
 </section>
+
 
  <section>
   <div class="product-section">

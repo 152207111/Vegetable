@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class SiteController extends Controller
 {
-    public function getabout()
+    public function getcategory()
     {
-        return view('site.aboutus');
+        return view('site.category');
     }
     public function getHome()
     {

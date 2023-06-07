@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [SiteController::class, 'getHome'])->name('getHome');
-Route::get('/about', [SiteController::class, 'getabout'])->name('getabout');
+Route::get('/category', [SiteController::class, 'getcategory'])->name('getcategory');
