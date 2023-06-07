@@ -193,6 +193,14 @@
   align-items: center;  
   justify-content: center;
 } 
+@media only screen and (max-width:860px){
+  .top-of-category .image{
+    display: none;
+  }
+  .top-of-category .left{
+    width: 100%;
+  }
+}
 
 
 /* top category ends here  */
